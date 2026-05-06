@@ -1,0 +1,1962 @@
+[
+  {
+    "topic_id": 0,
+    "question": "Property descriptor’dagi `writable: false` nimani anglatadi?",
+    "option_a": "Qiymatni qayta yozib bo‘lmaydi (assignment bloklanadi)",
+    "option_b": "Property o‘qilmaydi",
+    "option_c": "Property DOM’dan o‘chiriladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — descriptor o‘chirmaydi. Noto‘g‘ri: B — o‘qish `readable` degan flag bilan boshqarilmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/114"
+  },
+  {
+    "topic_id": 1,
+    "question": "Generator funksiya qanday belgilanadi?",
+    "option_a": "`function*` va `yield` bilan",
+    "option_b": "`async function` va `await` bilan",
+    "option_c": "`class` va `extends` bilan",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — bu class sintaksisi. Noto‘g‘ri: B — bu async funksiya.",
+    "video_url": "https://t.me/web_interview_mastery/154"
+  },
+  {
+    "topic_id": 2,
+    "question": "SCSS’ning ustunliklaridan biri qaysi?",
+    "option_a": "O‘zgaruvchi (variables), nesting va mixin kabi imkoniyatlar",
+    "option_b": "Brauzerda bevosita kompilyatorsiz ishlaydi",
+    "option_c": "JavaScriptni o‘rnini bosadi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — SCSS stil, JS logika. Noto‘g‘ri: B — SCSS odatda build bosqichida CSSga kompilyatsiya qilinadi.",
+    "video_url": "https://t.me/web_interview_mastery/66"
+  },
+  {
+    "topic_id": 3,
+    "question": "Class sintaksisi JavaScript’da aslida nimaning ustidagi “shakar” (syntax sugar)?",
+    "option_a": "Prototype-based inheritance’ning",
+    "option_b": "SQL query’larning",
+    "option_c": "CSS selector’larning",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — CSS selektor bilan bog‘liq emas. Noto‘g‘ri: B — class SQLga tegishli emas.",
+    "video_url": "https://t.me/web_interview_mastery/117"
+  },
+  {
+    "topic_id": 4,
+    "question": "Inheritance (meros olish) nimaga yordam beradi?",
+    "option_a": "Kod qayta ishlatish va umumiy funksionallikni ajratish",
+    "option_b": "Har bir klassni mustaqil va takror yozish",
+    "option_c": "Faqat CSS’ni import qilish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — meros olish aksincha takrorni kamaytiradi. Noto‘g‘ri: C — inheritance OOP/JS modeliga tegishli.",
+    "video_url": "https://t.me/web_interview_mastery/120"
+  },
+  {
+    "topic_id": 5,
+    "question": "`never` turi qachon ishlatiladi?",
+    "option_a": "Funksiya hech qachon tugamasa yoki har doim xato otsa",
+    "option_b": "Funksiya `null` qaytarsa",
+    "option_c": "Funksiya `void` qaytarsa",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `null` alohida tur (configga bog‘liq). Noto‘g‘ri: C — `void` qiymat qaytarmaslik, `never` emas.",
+    "video_url": "https://t.me/web_interview_mastery/208"
+  },
+  {
+    "topic_id": 6,
+    "question": "Iterable obyektning eng muhim belgisi qaysi?",
+    "option_a": "`Symbol.iterator` metodiga ega bo‘lishi",
+    "option_b": "Har doim `length` property’si bo‘lishi",
+    "option_c": "Faqat `Map` bo‘lishi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `length` shart emas (masalan `Set`). Noto‘g‘ri: C — ko‘p turdagi obyektlar iterable bo‘lishi mumkin.",
+    "video_url": "https://t.me/web_interview_mastery/116"
+  },
+  {
+    "topic_id": 7,
+    "question": "Event’ning default harakatini to‘xtatish uchun qaysi metod ishlatiladi?",
+    "option_a": "`event.preventDefault()`",
+    "option_b": "`event.stopPropagation()`",
+    "option_c": "`event.cancel()`",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu bubbling/capturing tarqalishini to‘xtatadi, defaultni emas. Noto‘g‘ri: C — standart metod emas.",
+    "video_url": "https://t.me/web_interview_mastery/184"
+  },
+  {
+    "topic_id": 8,
+    "question": "Prototype inheritance va class inheritance farqi bo‘yicha to‘g‘ri gap qaysi?",
+    "option_a": "JS asosan prototype modelga tayangan, class esa uning sintaksis shakaridir",
+    "option_b": "Class inheritance prototype’dan butunlay alohida mexanizm",
+    "option_c": "Prototype inheritance faqat TypeScript’da mavjud",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — class ham prototipga tayangan. Noto‘g‘ri: C — prototip JSning o‘zida bor.",
+    "video_url": "https://t.me/web_interview_mastery/143"
+  },
+  {
+    "topic_id": 9,
+    "question": "Deep copy nimani anglatadi?",
+    "option_a": "Ichki (nested) obyektlarni ham yangi nusxada yaratish",
+    "option_b": "Faqat birinchi qatlamni nusxalash",
+    "option_c": "Reference’ni ko‘chirish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — bu umuman copy emas, bir xil obyektga ishora. Noto‘g‘ri: B — bu shallow copy.",
+    "video_url": "https://t.me/web_interview_mastery/83"
+  },
+  {
+    "topic_id": 10,
+    "question": "CSS optimizatsiyasiga to‘g‘ri misol qaysi?",
+    "option_a": "Keraksiz selektorlarni kamaytirish va critical CSS’ni ajratish",
+    "option_b": "Har bir elementga `* {}` yozish",
+    "option_c": "Har joyda `!important` ishlatish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — universal selektor ko‘p ishlatilsa performance yomonlashishi mumkin. Noto‘g‘ri: C — `!important` boshqaruvni qiyinlashtiradi.",
+    "video_url": "https://t.me/web_interview_mastery/62"
+  },
+  {
+    "topic_id": 11,
+    "question": "IIFE nima?",
+    "option_a": "Darhol chaqiriladigan funksiya ifodasi (Immediately Invoked Function Expression)",
+    "option_b": "Internet Explorer’ning eski API’si",
+    "option_c": "CSS preprocessori",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — IIFE brauzer API emas, JS pattern. Noto‘g‘ri: C — bu Sass/LESS kabi.",
+    "video_url": "https://t.me/web_interview_mastery/112"
+  },
+  {
+    "topic_id": 12,
+    "question": "Proxy nimaga xizmat qiladi?",
+    "option_a": "Obyekt operatsiyalarini (get/set) intercept qilib, custom xatti-harakat qo‘shish",
+    "option_b": "CSS’ni serverga yuborish",
+    "option_c": "HTML’ni avtomatik yozish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — proxy JS runtime obyekt proxy’si. Noto‘g‘ri: C — HTML generatsiya proxy vazifasi emas.",
+    "video_url": "https://t.me/web_interview_mastery/156"
+  },
+  {
+    "topic_id": 13,
+    "question": "Tuple nima?",
+    "option_a": "Uzunligi va element turlari aniqlangan array turi",
+    "option_b": "Har doim bo‘sh obyekt",
+    "option_c": "CSS grid ustuni",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — tuple bo‘sh bo‘lishi shart emas. Noto‘g‘ri: C — tuple CSSga tegishli emas.",
+    "video_url": "https://t.me/web_interview_mastery/205"
+  },
+  {
+    "topic_id": 14,
+    "question": "Ushbu web-intervyu tayyorgarligi seriyasining asosiy maqsadi nima?",
+    "option_a": "Front-end mavzularini intervyuga mos takrorlash",
+    "option_b": "Faqat dizayn (UI) chizishni o‘rgatish",
+    "option_c": "Faqat server (backend) administratsiyasi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — seriya faqat UI dizayn bilan cheklanmaydi. Noto‘g‘ri: C — mavzular web front-end/JS/DOM/TS/React atrofida.",
+    "video_url": "https://t.me/web_interview_mastery/24"
+  },
+  {
+    "topic_id": 15,
+    "question": "HOC (Higher-Order Component) nima?",
+    "option_a": "Komponentni qabul qilib, yangi komponent qaytaradigan funksiya",
+    "option_b": "React’ning ichki serveri",
+    "option_c": "CSS preprocessor operatori",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — HOC server emas, pattern. Noto‘g‘ri: C — CSSga tegishli emas.",
+    "video_url": "https://t.me/web_interview_mastery/274"
+  },
+  {
+    "topic_id": 16,
+    "question": "Custom Hook yozishning to‘g‘ri qoidasi qaysi?",
+    "option_a": "Nomini `use...` bilan boshlash va ichida hook’larni qoidalarga rioya qilib chaqirish",
+    "option_b": "Hook’larni shart (if) ichida chaqirish",
+    "option_c": "Hook’ni faqat class komponentda ishlatish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — hook’lar functional komponentlar uchun. Noto‘g‘ri: B — hook’lar shart ichida chaqirilmaydi (Rules of Hooks).",
+    "video_url": "https://t.me/web_interview_mastery/273"
+  },
+  {
+    "topic_id": 17,
+    "question": "ARIA atributlari nimaga yordam beradi?",
+    "option_a": "Accessibility’ni yaxshilashga (screen readerga ma’no berish)",
+    "option_b": "Rasmlarni avtomatik optimizatsiya qilishga",
+    "option_c": "CSS’ni minify qilishga",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — minify build tool’lar bilan. Noto‘g‘ri: B — rasm optimizatsiyasi ARIA vazifasi emas.",
+    "video_url": "https://t.me/web_interview_mastery/42"
+  },
+  {
+    "topic_id": 18,
+    "question": "`===` operatori nimani tekshiradi?",
+    "option_a": "Qiymat va tur (type) tengligini",
+    "option_b": "Faqat qiymat tengligini (type’ni o‘zgartirib)",
+    "option_c": "Obyektlarni deep tenglik bilan",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu ko‘proq `==`ga xos (coercion). Noto‘g‘ri: C — `===` reference’ni solishtiradi, deep compare emas.",
+    "video_url": "https://t.me/web_interview_mastery/97"
+  },
+  {
+    "topic_id": 19,
+    "question": "`as const` nimaga ishlatiladi?",
+    "option_a": "Literal turlarni toraytirib, qiymatlarni immutable (readonly) kabi ko‘rsatishga",
+    "option_b": "Kodni tezroq bajarishga",
+    "option_c": "DOM’ni o‘zgartirishga",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — TS type’lar DOMni o‘zgartirmaydi. Noto‘g‘ri: B — type operator performance bermaydi.",
+    "video_url": "https://t.me/web_interview_mastery/240"
+  },
+  {
+    "topic_id": 20,
+    "question": "`let` va `const` o‘rtasidagi to‘g‘ri farq qaysi?",
+    "option_a": "`const` qayta assignment’ni taqiqlaydi, `let` esa ruxsat beradi",
+    "option_b": "`let` function scope, `const` global scope",
+    "option_c": "`const` hoisting bo‘lmaydi, `let` esa bo‘ladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — ikkalasi ham TDZ bilan hoisting qilinadi. Noto‘g‘ri: B — ikkalasi ham block scope.",
+    "video_url": "https://t.me/web_interview_mastery/74"
+  },
+  {
+    "topic_id": 21,
+    "question": "Singleton pattern’ning g‘oyasi qaysi?",
+    "option_a": "Klassdan faqat bitta instans yaratishni ta’minlash",
+    "option_b": "Har chaqirishda yangi instans yaratish",
+    "option_c": "Faoliyatni faqat `static` metodlar bilan cheklash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu singletonning aksi. Noto‘g‘ri: C — singleton bo‘lish uchun faqat static shart emas.",
+    "video_url": "https://t.me/web_interview_mastery/129"
+  },
+  {
+    "topic_id": 22,
+    "question": "React reconciliation jarayoni nimani qiladi?",
+    "option_a": "Virtual DOM farqini topib, minimal o‘zgarishlarni real DOMga qo‘llaydi",
+    "option_b": "CSS fayllarni minify qiladi",
+    "option_c": "Serverni avtomatik scale qiladi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — minify build tool vazifasi. Noto‘g‘ri: C — scaling infra masalasi.",
+    "video_url": "https://t.me/web_interview_mastery/265"
+  },
+  {
+    "topic_id": 23,
+    "question": "JavaScript typedligi bo‘yicha qaysi gap to‘g‘ri?",
+    "option_a": "Dynamic typed: tur runtime’da aniqlanadi",
+    "option_b": "Static typed: compile vaqtida qat’iy",
+    "option_c": "Type’lar umuman yo‘q",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — JS statik tiplashga ega emas (TypeScript qo‘shimcha). Noto‘g‘ri: C — runtime’da type tushunchasi bor.",
+    "video_url": "https://t.me/web_interview_mastery/170"
+  },
+  {
+    "topic_id": 24,
+    "question": "Referential transparency nimani bildiradi?",
+    "option_a": "Ifodani natijasini o‘zgartirmasdan qiymatiga almashtirish mumkin",
+    "option_b": "Har doim global state’dan foydalanish kerak",
+    "option_c": "Funksiya faqat bir marta chaqiriladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — chaqirilish soni bilan aniqlanmaydi. Noto‘g‘ri: B — global state referential transparency’ni buzadi.",
+    "video_url": "https://t.me/web_interview_mastery/111"
+  },
+  {
+    "topic_id": 25,
+    "question": "`satisfies` operatori nima beradi?",
+    "option_a": "Qiymatning type’ga mosligini tekshiradi, lekin aniq (narrow) tipni saqlab qoladi",
+    "option_b": "Runtime’da validatsiya qiladi",
+    "option_c": "Qiymatni `any` ga aylantiradi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `satisfies` compile-time, runtime validation emas. Noto‘g‘ri: C — `any`ga aylantirmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/238"
+  },
+  {
+    "topic_id": 26,
+    "question": "Block-level va inline elementlar farqi bo‘yicha to‘g‘ri gap qaysi?",
+    "option_a": "Block odatda yangi qatordan boshlanadi, inline esa satr ichida oqadi",
+    "option_b": "Inline element width/height har doim ishlaydi",
+    "option_c": "Block elementlar faqat `<span>` bo‘ladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `<span>` inline, block elementlarga `<div>` kabi teglar kiradi. Noto‘g‘ri: B — inline’da width/height odatda ta’sir qilmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/30"
+  },
+  {
+    "topic_id": 27,
+    "question": "React JS nimaga asoslangan kutubxona?",
+    "option_a": "UI (foydalanuvchi interfeysi) qurish uchun JavaScript kutubxonasi",
+    "option_b": "Ma’lumotlar bazasi serveri",
+    "option_c": "CSS preprocessor",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — React DB server emas. Noto‘g‘ri: C — React CSS preprocessor emas.",
+    "video_url": "https://t.me/web_interview_mastery/247"
+  },
+  {
+    "topic_id": 28,
+    "question": "TypeScript’ning JavaScript’dan asosiy farqi qaysi?",
+    "option_a": "Statik type tizimi va type checking (compile time)",
+    "option_b": "Brauzerda JS’siz ishlaydi",
+    "option_c": "HTML o‘rnini bosadi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — TS odatda JSga transpile qilinadi. Noto‘g‘ri: C — TS dasturlash tili, HTML markup.",
+    "video_url": "https://t.me/web_interview_mastery/201"
+  },
+  {
+    "topic_id": 29,
+    "question": "Event bubbling nimani anglatadi?",
+    "option_a": "Event child’dan parent’ga yuqoriga tarqalishi",
+    "option_b": "Event parent’dan child’ga pastga tarqalishi",
+    "option_c": "Event faqat target’da qolishi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu capturing. Noto‘g‘ri: C — bubbling bo‘lsa tarqaladi.",
+    "video_url": "https://t.me/web_interview_mastery/193"
+  },
+  {
+    "topic_id": 30,
+    "question": "ES Module’da `export default`ning farqi qaysi?",
+    "option_a": "Moduldan bitta asosiy qiymatni default qilib eksport qiladi",
+    "option_b": "Bir moduldan bir nechta default eksport bo‘lishi shart",
+    "option_c": "`export default` faqat TypeScript’da ishlaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bitta modulda odatda bitta default export bo‘ladi. Noto‘g‘ri: C — JSning o‘zida bor.",
+    "video_url": "https://t.me/web_interview_mastery/152"
+  },
+  {
+    "topic_id": 31,
+    "question": "Immutability nimani anglatadi?",
+    "option_a": "Ma’lumotni o‘zgartirmasdan yangi nusxa yaratib ishlash",
+    "option_b": "Har doim obyektni joyida (in-place) o‘zgartirish",
+    "option_c": "Faylni o‘chirish taqiqlanishi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — immutability ko‘proq data struktura/qiymatlarga tegishli. Noto‘g‘ri: B — bu mutability.",
+    "video_url": "https://t.me/web_interview_mastery/102"
+  },
+  {
+    "topic_id": 32,
+    "question": "Static metod va instance metod farqi qaysi?",
+    "option_a": "Static metod klassga tegishli, instance metod obyektga tegishli",
+    "option_b": "Instance metodni faqat klass nomi bilan chaqiramiz",
+    "option_c": "Static metod `this` ishlatolmaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — instance metod obyekt orqali chaqiriladi. Noto‘g‘ri: C — static metod ichida ham `this` (klassning o‘zi) bo‘lishi mumkin.",
+    "video_url": "https://t.me/web_interview_mastery/134"
+  },
+  {
+    "topic_id": 33,
+    "question": "Currying nimani anglatadi?",
+    "option_a": "Ko‘p argumentli funksiyani ketma-ket bitta argumentli funksiyalarga ajratish",
+    "option_b": "Massivni tartiblash algoritmi",
+    "option_c": "DOM elementni klonlash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu sorting. Noto‘g‘ri: C — bu DOM API.",
+    "video_url": "https://t.me/web_interview_mastery/107"
+  },
+  {
+    "topic_id": 34,
+    "question": "`transition` va `animation` o‘rtasidagi farq qaysi?",
+    "option_a": "Transition — o‘zgarish bo‘lsa silliq o‘tish; animation — keyframes bilan mustaqil ketma-ketlik",
+    "option_b": "Transition faqat rang uchun, animation faqat width uchun",
+    "option_c": "Animation faqat hoverda ishlaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — ikkalasi ham ko‘p xossalarga qo‘llanadi. Noto‘g‘ri: C — animation turli triggerlar bilan ishlashi mumkin.",
+    "video_url": "https://t.me/web_interview_mastery/61"
+  },
+  {
+    "topic_id": 35,
+    "question": "Type guard’ga misol qaysi?",
+    "option_a": "`typeof x === 'string'`",
+    "option_b": "`x + y`",
+    "option_c": "`return;`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu arifmetik amal, type toraytirish emas. Noto‘g‘ri: C — return statement type guard emas.",
+    "video_url": "https://t.me/web_interview_mastery/244"
+  },
+  {
+    "topic_id": 36,
+    "question": "Scope nima?",
+    "option_a": "O‘zgaruvchilarning ko‘rinish (access) doirasi",
+    "option_b": "Rasm formatining turi",
+    "option_c": "CSS’ning animatsiya rejimi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — scope kod ko‘rinishi bilan bog‘liq. Noto‘g‘ri: C — animatsiya scope tushunchasi emas.",
+    "video_url": "https://t.me/web_interview_mastery/147"
+  },
+  {
+    "topic_id": 37,
+    "question": "Command pattern qachon foydali?",
+    "option_a": "Amallarni obyekt sifatida kapsulalab, undo/redo yoki queue qilish kerak bo‘lganda",
+    "option_b": "CSS’ni tezlatish uchun",
+    "option_c": "HTML teglar sonini ko‘paytirish uchun",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — HTML teglar soni bilan bog‘liq emas. Noto‘g‘ri: B — command pattern performance CSS optimizatsiyasi emas.",
+    "video_url": "https://t.me/web_interview_mastery/142"
+  },
+  {
+    "topic_id": 38,
+    "question": "Pseudo-elementga to‘g‘ri misol qaysi?",
+    "option_a": "`::before`",
+    "option_b": "`:hover`",
+    "option_c": "`@media`",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu pseudo-class. Noto‘g‘ri: C — bu at-rule.",
+    "video_url": "https://t.me/web_interview_mastery/53"
+  },
+  {
+    "topic_id": 39,
+    "question": "Blok elementni gorizontal markazga keltirishning klassik usuli qaysi?",
+    "option_a": "`margin: 0 auto;` (width berilgan bo‘lsa)",
+    "option_b": "`float: center;`",
+    "option_c": "`position: static; left: 50%;`",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `static`da `left` ishlamaydi. Noto‘g‘ri: B — `float: center` degan qiymat yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/57"
+  },
+  {
+    "topic_id": 40,
+    "question": "Layout tanlashda `grid` qachon ko‘proq mos?",
+    "option_a": "Ikki o‘lchamli (qator va ustun) joylashuv kerak bo‘lganda",
+    "option_b": "Faqat matnni qalin qilish kerak bo‘lganda",
+    "option_c": "HTTP so‘rov yuborish kerak bo‘lganda",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — matn stili `font-weight` bilan. Noto‘g‘ri: C — HTTP JS/network qismida.",
+    "video_url": "https://t.me/web_interview_mastery/49"
+  },
+  {
+    "topic_id": 41,
+    "question": "JavaScript’da `prototype` nima uchun kerak?",
+    "option_a": "Meros olish (inheritance) va umumiy metodlarni ulash uchun",
+    "option_b": "HTMLni validatsiya qilish uchun",
+    "option_c": "CSS’ni kesh qilish uchun",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu HTML validator vazifasi. Noto‘g‘ri: C — kesh prototipning vazifasi emas.",
+    "video_url": "https://t.me/web_interview_mastery/113"
+  },
+  {
+    "topic_id": 42,
+    "question": "Destructuring assignment nimaga xizmat qiladi?",
+    "option_a": "Array/obyektdan qiymatlarni qisqa sintaksis bilan ajratib olishga",
+    "option_b": "Faylni diskdan o‘chirishga",
+    "option_c": "CSS’ni dinamik kompilyatsiya qilishga",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — CSS kompilyatsiyasi build jarayonida. Noto‘g‘ri: B — destructuring fayl tizimi bilan bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/96"
+  },
+  {
+    "topic_id": 43,
+    "question": "Strategy pattern nimaga yordam beradi?",
+    "option_a": "Algoritmni almashtiriladigan “strategiya”lar sifatida ajratib, runtime’da tanlash",
+    "option_b": "Har doim `switch`dan foydalanish",
+    "option_c": "Faylni diskda shifrlash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — pattern `switch`ga bog‘liq emas. Noto‘g‘ri: C — bu security/crypto masalasi.",
+    "video_url": "https://t.me/web_interview_mastery/141"
+  },
+  {
+    "topic_id": 44,
+    "question": "Quyidagilardan qaysi biri JavaScript error turi?",
+    "option_a": "`TypeError`",
+    "option_b": "`StyleError`",
+    "option_c": "`MarkupError`",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — standart JS error turi emas. Noto‘g‘ri: B — standart JS error turi emas.",
+    "video_url": "https://t.me/web_interview_mastery/169"
+  },
+  {
+    "topic_id": 45,
+    "question": "CSS box model nimalardan iborat?",
+    "option_a": "Content, padding, border, margin",
+    "option_b": "Header, footer, sidebar, navbar",
+    "option_c": "Request, response, cookie, cache",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu layout bo‘limlari, box model emas. Noto‘g‘ri: C — bu web tarmoq tushunchalari.",
+    "video_url": "https://t.me/web_interview_mastery/46"
+  },
+  {
+    "topic_id": 46,
+    "question": "Singleton’ga amaliy alternativalardan biri qaysi?",
+    "option_a": "Dependency Injection (DI) orqali instansni tashqaridan berish",
+    "option_b": "Har joyda global o‘zgaruvchi ishlatish",
+    "option_c": "Hammasini `eval` bilan yozish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `eval` xavfli va kerak emas. Noto‘g‘ri: B — global state test va maintainability’ni yomonlashtiradi.",
+    "video_url": "https://t.me/web_interview_mastery/130"
+  },
+  {
+    "topic_id": 47,
+    "question": "React performance optimizatsiyasida qaysi yondashuv ko‘p uchraydi?",
+    "option_a": "Keraksiz re-render’larni kamaytirish (`memo`, `useMemo`, `useCallback`)",
+    "option_b": "Har renderda yangi katta array/obyekt yaratish",
+    "option_c": "Har komponentda doim `setState` chaqirish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — keraksiz state update’lar performance’ni yomonlashtiradi. Noto‘g‘ri: B — bu re-render va GC bosimini oshiradi.",
+    "video_url": "https://t.me/web_interview_mastery/271"
+  },
+  {
+    "topic_id": 48,
+    "question": "HTML `data-*` atributlari odatda nima uchun ishlatiladi?",
+    "option_a": "JS/CSS uchun maxsus (custom) ma’lumotni elementga bog‘lash",
+    "option_b": "Brauzer keshini o‘chirib qo‘yish",
+    "option_c": "HTTP so‘rovlarini shifrlash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — kesh boshqaruvi `data-*` bilan qilinmaydi. Noto‘g‘ri: C — shifrlash transport (HTTPS) darajasida.",
+    "video_url": "https://t.me/web_interview_mastery/35"
+  },
+  {
+    "topic_id": 49,
+    "question": "Canvas va SVG o‘rtasidagi to‘g‘ri farq qaysi?",
+    "option_a": "Canvas — raster (piksel), SVG — vektor va DOMga yaqin",
+    "option_b": "Canvas — vektor, SVG — raster",
+    "option_c": "Ikkalasi ham faqat matn uchun",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — ta’riflar almashib ketgan. Noto‘g‘ri: C — ikkalasi grafika uchun.",
+    "video_url": "https://t.me/web_interview_mastery/43"
+  },
+  {
+    "topic_id": 50,
+    "question": "Generics nimaga kerak?",
+    "option_a": "Type’larni parametr sifatida berib, qayta ishlatiladigan abstraksiyalar yaratish",
+    "option_b": "Faqat CSS yozishni tezlatish",
+    "option_c": "Browser cache’ni boshqarish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — cache boshqaruvi boshqa qatlam. Noto‘g‘ri: B — generics type tizimiga tegishli.",
+    "video_url": "https://t.me/web_interview_mastery/231"
+  },
+  {
+    "topic_id": 51,
+    "question": "Type Coercion nimani bildiradi?",
+    "option_a": "JavaScriptning avtomatik turga o‘tkazishi (masalan `\"1\" + 2`)",
+    "option_b": "Developerning `Number(x)` bilan majburiy o‘tkazishi",
+    "option_c": "Fayl formatini zip qilish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu type conversion (explicit). Noto‘g‘ri: C — bu arxivlash.",
+    "video_url": "https://t.me/web_interview_mastery/98"
+  },
+  {
+    "topic_id": 52,
+    "question": "`textContent` va `innerHTML` farqi bo‘yicha to‘g‘ri gap qaysi?",
+    "option_a": "`textContent` matn beradi, `innerHTML` HTML’ni parse qiladi",
+    "option_b": "`textContent` HTML teglari yaratadi",
+    "option_c": "`innerHTML` hech qachon XSS xavfini keltirmaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `textContent` teglarga ishlov bermaydi. Noto‘g‘ri: C — `innerHTML` noto‘g‘ri ishlatilsa XSS xavfi bor.",
+    "video_url": "https://t.me/web_interview_mastery/186"
+  },
+  {
+    "topic_id": 53,
+    "question": "JavaScript qanday til?",
+    "option_a": "Brauzerda ishlaydigan (va serverda ham) dasturlash tili",
+    "option_b": "Faqat markup tili",
+    "option_c": "Faqat ma’lumotlar bazasi tili",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu HTMLga xos. Noto‘g‘ri: C — DB tillari (SQL) boshqa.",
+    "video_url": "https://t.me/web_interview_mastery/73"
+  },
+  {
+    "topic_id": 54,
+    "question": "First-class functions deganda nima tushuniladi?",
+    "option_a": "Funksiyalarni qiymat kabi uzatish/saqlash mumkin (argument, return)",
+    "option_b": "Funksiya faqat bitta joyda e’lon qilinadi",
+    "option_c": "Funksiya faqat class ichida bo‘ladi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — first-class bo‘lish e’lon joyi bilan cheklanmaydi. Noto‘g‘ri: C — funksiya global yoki modul scope’da ham bo‘ladi.",
+    "video_url": "https://t.me/web_interview_mastery/104"
+  },
+  {
+    "topic_id": 55,
+    "question": "Functional va Class komponentlar farqiga to‘g‘ri misol qaysi?",
+    "option_a": "Functional komponent hook’lar bilan state/effect boshqaradi, class esa lifecycle metodlari bilan",
+    "option_b": "Class komponent JSX ishlata olmaydi",
+    "option_c": "Functional komponentda props bo‘lmaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — class ham JSX qaytarishi mumkin. Noto‘g‘ri: C — props ikkala turda ham bor.",
+    "video_url": "https://t.me/web_interview_mastery/250"
+  },
+  {
+    "topic_id": 56,
+    "question": "`Object.create(proto)` va `new Constructor()` farqi bo‘yicha to‘g‘ri gap qaysi?",
+    "option_a": "`Object.create` bevosita prototipni beradi, `new` esa constructor’ni chaqiradi va prototipni bog‘laydi",
+    "option_b": "Ikkalasi ham constructor’ni chaqirmasdan obyekt yaratadi",
+    "option_c": "`new` prototip zanjirini yaratmaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `new` prototip zanjirini o‘rnatadi. Noto‘g‘ri: B — `new` constructor’ni chaqiradi (odatda).",
+    "video_url": "https://t.me/web_interview_mastery/133"
+  },
+  {
+    "topic_id": 57,
+    "question": "`<head>` va `<body>` teglarining asosiy vazifasi qaysi?",
+    "option_a": "`<head>` — metadata/resurslar, `<body>` — ko‘rinadigan kontent",
+    "option_b": "`<head>` — faqat rasmlar, `<body>` — faqat skriptlar",
+    "option_c": "Ikkalasi ham bir xil vazifani bajaradi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — rasm/skript uchun alohida teglar bor. Noto‘g‘ri: C — `head` va `body` semantik jihatdan farq qiladi.",
+    "video_url": "https://t.me/web_interview_mastery/27"
+  },
+  {
+    "topic_id": 58,
+    "question": "`interface` va `type` farqiga eng yaqin to‘g‘ri gap qaysi?",
+    "option_a": "Ko‘p hollarda o‘xshash; `interface` merge bo‘lishi mumkin, `type` esa alias imkoniyatlari keng",
+    "option_b": "`type` faqat class uchun, `interface` faqat funksiya uchun",
+    "option_c": "`interface` runtime’da mavjud obyekt",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — ikkalasi ham tur ifodalash uchun. Noto‘g‘ri: C — type/interface compile-time, runtime’da yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/204"
+  },
+  {
+    "topic_id": 59,
+    "question": "`!important` qachon ishlatish maqsadga muvofiq?",
+    "option_a": "Juda zarur bo‘lsa (masalan utilitiy/class konflikti), minimal va nazorat bilan",
+    "option_b": "Har doim, barcha qoidalarga",
+    "option_c": "Faqat HTML atributlarida",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — doimiy ishlatish maintainability’ni yomonlashtiradi. Noto‘g‘ri: C — `!important` CSS qoidalarida ishlaydi.",
+    "video_url": "https://t.me/web_interview_mastery/65"
+  },
+  {
+    "topic_id": 60,
+    "question": "`Omit<T, K>` nimani qiladi?",
+    "option_a": "`T` dan `K` key’larni olib tashlab yangi type qaytaradi",
+    "option_b": "Faqat `K` key’larni qoldiradi",
+    "option_c": "`K`ni `T`ga qo‘shadi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — omit qo‘shmaydi. Noto‘g‘ri: B — bu `Pick<T, K>`ga yaqin.",
+    "video_url": "https://t.me/web_interview_mastery/221"
+  },
+  {
+    "topic_id": 61,
+    "question": "Observer pattern qachon foydali?",
+    "option_a": "Bir obyekt o‘zgarishini ko‘p “subscriber”larga xabar qilish kerak bo‘lganda",
+    "option_b": "CSS faylni ulash kerak bo‘lganda",
+    "option_c": "SQL indeks yaratishda",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu HTML `<link>` vazifasi. Noto‘g‘ri: C — observer DB indeksi emas.",
+    "video_url": "https://t.me/web_interview_mastery/137"
+  },
+  {
+    "topic_id": 62,
+    "question": "TypeScript’da `null` va `undefined` farqining to‘g‘ri izohi qaysi?",
+    "option_a": "`undefined` — qiymat berilmagan, `null` — ataylab bo‘sh qiymat",
+    "option_b": "Ikkalasi ham bir xil va farqsiz",
+    "option_c": "`null` faqat number bo‘ladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `null` alohida “bo‘sh” qiymat. Noto‘g‘ri: B — ma’nosi va ishlatilishi farq qiladi.",
+    "video_url": "https://t.me/web_interview_mastery/209"
+  },
+  {
+    "topic_id": 63,
+    "question": "JavaScript’da `_` (underscore) ko‘pincha qanday ma’noda ishlatiladi?",
+    "option_a": "Konvensiya: “private”ga o‘xshash yoki “foydalanilmaydi” degan niyat",
+    "option_b": "Maxsus operator, har doim bitwise qiladi",
+    "option_c": "Til tomonidan rezerv qilingan keyword",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `_` standart JS operatori emas (konvensiya). Noto‘g‘ri: C — `_` keyword emas.",
+    "video_url": "https://t.me/web_interview_mastery/128"
+  },
+  {
+    "topic_id": 64,
+    "question": "`<div>` va `<span>` orasidagi asosiy farq qaysi?",
+    "option_a": "`div` — block, `span` — inline (default holatda)",
+    "option_b": "`div` — inline, `span` — block (default holatda)",
+    "option_c": "Ikkalasi ham faqat jadval (`table`) ichida ishlaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — default display qiymatlari teskari aytilgan. Noto‘g‘ri: C — `div/span` umumiy konteynerlar, `table`ga bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/31"
+  },
+  {
+    "topic_id": 65,
+    "question": "`position: absolute` element qaysi konteynerga nisbatan joylashadi?",
+    "option_a": "Eng yaqin `position` berilgan (relative/absolute/fixed) ajdodga",
+    "option_b": "Har doim `body`ga nisbatan",
+    "option_c": "Faqat o‘zining o‘lchamiga nisbatan",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — koordinatalar konteynerga bog‘liq. Noto‘g‘ri: B — agar positioned ajdod bo‘lsa, `body` emas, o‘sha ajdodga nisbatan.",
+    "video_url": "https://t.me/web_interview_mastery/51"
+  },
+  {
+    "topic_id": 66,
+    "question": "CSS animation’ni ishga tushirish uchun qaysi juftlik to‘g‘ri?",
+    "option_a": "`@keyframes` + `animation`",
+    "option_b": "`@media` + `transform`",
+    "option_c": "`@font-face` + `opacity`",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `@font-face` shriftlar uchun. Noto‘g‘ri: B — `@media` responsivlik, `transform` esa alohida effekt.",
+    "video_url": "https://t.me/web_interview_mastery/60"
+  },
+  {
+    "topic_id": 67,
+    "question": "TypeScript’da funksiyaning return turini ko‘rsatish qanday yoziladi?",
+    "option_a": "`function f(): number { ... }`",
+    "option_b": "`function f() => number { ... }`",
+    "option_c": "`function f(number) { ... }`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu JS/TS sintaksisi emas. Noto‘g‘ri: C — bu parametrga o‘xshaydi, return turi emas.",
+    "video_url": "https://t.me/web_interview_mastery/207"
+  },
+  {
+    "topic_id": 68,
+    "question": "Virtual DOM’ning asosiy foydasi nimada?",
+    "option_a": "UI o‘zgarishlarini diff qilib, samaraliroq DOM update qilishga yordam beradi",
+    "option_b": "Brauzerni almashtirib yuboradi",
+    "option_c": "HTML’ni butunlay o‘chiradi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — HTMLni o‘chirmaydi, render qiladi. Noto‘g‘ri: B — Virtual DOM brauzer engine emas.",
+    "video_url": "https://t.me/web_interview_mastery/268"
+  },
+  {
+    "topic_id": 69,
+    "question": "OOP nimani anglatadi?",
+    "option_a": "Object-Oriented Programming — obyektlar va ularning o‘zaro aloqasi asosida",
+    "option_b": "Only One Procedure — faqat bitta funksiya yozish",
+    "option_c": "Open Object Protocol — brauzer protokoli",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — OOP bitta funksiya bilan bog‘liq emas. Noto‘g‘ri: C — bu standart web protokol emas.",
+    "video_url": "https://t.me/web_interview_mastery/119"
+  },
+  {
+    "topic_id": 70,
+    "question": "Prototype pattern nimani anglatadi?",
+    "option_a": "Mavjud obyektni klonlab yangi obyekt yaratish g‘oyasi",
+    "option_b": "Har doim singleton yaratish",
+    "option_c": "DOM’ni to‘liq qayta chizish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu boshqa pattern. Noto‘g‘ri: C — UI render bilan bog‘liq.",
+    "video_url": "https://t.me/web_interview_mastery/140"
+  },
+  {
+    "topic_id": 71,
+    "question": "Polymorphism nimani anglatadi?",
+    "option_a": "Bir xil interfeys, turlicha implementatsiya",
+    "option_b": "Bitta klassdan faqat bitta obyekt yaratish",
+    "option_c": "Har doim `if/else` bilan yozish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu singleton g‘oyasi. Noto‘g‘ri: C — polymorphism shart operatorlari bilan cheklanmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/126"
+  },
+  {
+    "topic_id": 72,
+    "question": "Microtask’lar (Promise) odatda qachon bajariladi?",
+    "option_a": "Joriy call stack bo‘shagach, keyingi macrotask’dan oldin",
+    "option_b": "Har doim `setTimeout`dan keyin",
+    "option_c": "DOM to‘liq yuklanmaguncha umuman bajarilmaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — microtask’lar ko‘pincha `setTimeout`dan oldin ham ishlaydi. Noto‘g‘ri: C — DOM load shart emas.",
+    "video_url": "https://t.me/web_interview_mastery/165"
+  },
+  {
+    "topic_id": 73,
+    "question": "Call Stack nimani kuzatadi?",
+    "option_a": "Bajarilayotgan funksiyalar chaqiruvlar ketma-ketligini",
+    "option_b": "CSS selektorlar ro‘yxatini",
+    "option_c": "Tarmoq paketlarini",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — CSS’ning call stack’i bo‘lmaydi. Noto‘g‘ri: C — paketlar networking’ga tegishli.",
+    "video_url": "https://t.me/web_interview_mastery/85"
+  },
+  {
+    "topic_id": 74,
+    "question": "Union type’ga misol qaysi?",
+    "option_a": "`string | number`",
+    "option_b": "`string & number`",
+    "option_c": "`string -> number`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu intersection. Noto‘g‘ri: C — bu TS sintaksisi emas.",
+    "video_url": "https://t.me/web_interview_mastery/210"
+  },
+  {
+    "topic_id": 75,
+    "question": "Memory leak nimaga olib kelishi mumkin?",
+    "option_a": "Xotira ortib borib, performance pasayishi yoki crash",
+    "option_b": "HTML validatsiyasi yaxshilanishi",
+    "option_c": "Brauzer keshini avtomatik tozalash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — leak validatsiyani yaxshilamaydi. Noto‘g‘ri: C — leak kesh tozalash emas, aksincha xotira ushlab qolish.",
+    "video_url": "https://t.me/web_interview_mastery/88"
+  },
+  {
+    "topic_id": 76,
+    "question": "`Reflect` API odatda nimaga kerak?",
+    "option_a": "Meta-programming: obyekt amallarini funksiyalar ko‘rinishida bajarish",
+    "option_b": "SVG chizish",
+    "option_c": "DNS sozlash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — SVG alohida. Noto‘g‘ri: C — DNS tarmoq sozlamasi.",
+    "video_url": "https://t.me/web_interview_mastery/158"
+  },
+  {
+    "topic_id": 77,
+    "question": "Meta teglar asosan qaysi maqsad uchun ishlatiladi?",
+    "option_a": "Metadata (charset, viewport, description) berish",
+    "option_b": "Elementlarni ekranda joylashtirish (layout)",
+    "option_c": "Fayl tizimida papka yaratish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — layout CSS bilan boshqariladi. Noto‘g‘ri: C — brauzer HTML meta teg bilan OS papka yaratmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/41"
+  },
+  {
+    "topic_id": 78,
+    "question": "Murakkab shakllarda `clip-path` nimaga ishlatiladi?",
+    "option_a": "Elementni ma’lum shakl bo‘yicha kesib ko‘rsatishga",
+    "option_b": "Elementga HTTP cookie qo‘shishga",
+    "option_c": "DOM elementlarni klon qilishga",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — cookie brauzer saqlash mexanizmi. Noto‘g‘ri: C — klonlash JS/DOM API bilan.",
+    "video_url": "https://t.me/web_interview_mastery/70"
+  },
+  {
+    "topic_id": 79,
+    "question": "HTML tegi va atributi o‘rtasidagi to‘g‘ri bog‘lanish qaysi?",
+    "option_a": "Teg elementni belgilaydi, atribut esa uning xossasini beradi",
+    "option_b": "Atribut doim alohida element sifatida yoziladi",
+    "option_c": "Teglar faqat CSS uchun, atributlar faqat JS uchun",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — atribut teg ichida `nom=qiymat` ko‘rinishida bo‘ladi. Noto‘g‘ri: C — teg/atribut HTMLning o‘zi uchun.",
+    "video_url": "https://t.me/web_interview_mastery/29"
+  },
+  {
+    "topic_id": 80,
+    "question": "Strict mode qanday yoqiladi?",
+    "option_a": "Fayl yoki funksiya boshida `'use strict';` yozish bilan",
+    "option_b": "HTML `<meta strict>` qo‘shish bilan",
+    "option_c": "CSS’da `strict: true` yozish bilan",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bunday meta yo‘q. Noto‘g‘ri: C — CSS’da strict mode yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/171"
+  },
+  {
+    "topic_id": 81,
+    "question": "Access modifier’lar (`public/private/protected`) nimaga xizmat qiladi?",
+    "option_a": "A’zolarga (field/method) kirish darajasini cheklashga",
+    "option_b": "HTTP portni o‘zgartirishga",
+    "option_c": "CSS media query yozishga",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — media query CSS’dagi at-rule. Noto‘g‘ri: B — bu server/network sozlamasi.",
+    "video_url": "https://t.me/web_interview_mastery/127"
+  },
+  {
+    "topic_id": 82,
+    "question": "`const` bilan e’lon qilingan o‘zgaruvchiga nima taqiqlanadi?",
+    "option_a": "Qayta assignment (boshqa qiymat berish)",
+    "option_b": "O‘qish (read) qilish",
+    "option_c": "Funksiya ichida ishlatish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `const` o‘qiladi, faqat qayta assignment yo‘q. Noto‘g‘ri: C — scope ichida bemalol ishlatiladi.",
+    "video_url": "https://t.me/web_interview_mastery/82"
+  },
+  {
+    "topic_id": 83,
+    "question": "`<script>` ni `<head>` ga qo‘yish bilan `<body>` oxiriga qo‘yishning farqi nimada?",
+    "option_a": "`head`da bo‘lsa render bloklanishi mumkin, `body` oxirida DOM tayyorroq bo‘ladi",
+    "option_b": "`head`da bo‘lsa JS ishlamaydi",
+    "option_c": "`body`da bo‘lsa CSS umuman yuklanmaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — CSS yuklanishi `script` joyiga bog‘liq emas. Noto‘g‘ri: B — JS `head`da ham ishlaydi, faqat yuklash/DOM ta’siri bor.",
+    "video_url": "https://t.me/web_interview_mastery/36"
+  },
+  {
+    "topic_id": 84,
+    "question": "Elementga class qo‘shish uchun qaysi usul to‘g‘ri?",
+    "option_a": "`el.classList.add('active')`",
+    "option_b": "`el.class.add('active')`",
+    "option_c": "`el.addClass('active')` (standart JS)",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `class` property’si string, `add` metodi unda yo‘q. Noto‘g‘ri: C — bu jQuery uslubi, standart JS emas.",
+    "video_url": "https://t.me/web_interview_mastery/180"
+  },
+  {
+    "topic_id": 85,
+    "question": "`Readonly<T>` va `Mutable<T>` farqi qaysi?",
+    "option_a": "Biri property’larni o‘zgartirishni cheklaydi, biri esa qayta o‘zgartirishga ruxsat beruvchi type yaratadi",
+    "option_b": "Ikkalasi ham bir xil",
+    "option_c": "`Mutable<T>` TS’da mavjud emas",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `Mutable` ko‘pincha custom mapped type sifatida ishlatiladi. Noto‘g‘ri: B — maqsadi teskari.",
+    "video_url": "https://t.me/web_interview_mastery/237"
+  },
+  {
+    "topic_id": 86,
+    "question": "`ReturnType<T>` utility nimani beradi?",
+    "option_a": "Funksiya type’idan uning return turini chiqarib beradi",
+    "option_b": "Parametrlar ro‘yxatini string qiladi",
+    "option_c": "Promise’ni bekor qiladi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu `Parameters<T>`ga yaqin. Noto‘g‘ri: C — type utility cancel qilmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/235"
+  },
+  {
+    "topic_id": 87,
+    "question": "Hoisting nimani anglatadi?",
+    "option_a": "Deklaratsiyalarni bajarilishdan oldin scope boshiga ko‘tarilgandek ko‘rinishi",
+    "option_b": "Kodning minify qilinishi",
+    "option_c": "Rasmlarni CDNga ko‘chirish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — CDN infra jarayoni. Noto‘g‘ri: B — minify build jarayoni.",
+    "video_url": "https://t.me/web_interview_mastery/77"
+  },
+  {
+    "topic_id": 88,
+    "question": "DOM o‘zgarishlarini kuzatish uchun qaysi API mos?",
+    "option_a": "`MutationObserver`",
+    "option_b": "`FetchObserver`",
+    "option_c": "`StyleWatcher`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bunday standart API yo‘q. Noto‘g‘ri: C — bunday standart API yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/192"
+  },
+  {
+    "topic_id": 89,
+    "question": "Tagged template literal’lar qayerda foydali?",
+    "option_a": "Template literal’ni funksiya orqali pars/transform qilishda",
+    "option_b": "HTML teglarini yaratishda majburiy",
+    "option_c": "CSS faylni ulashda",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — CSS ulash `<link>` bilan. Noto‘g‘ri: B — HTML teglar uchun shart emas.",
+    "video_url": "https://t.me/web_interview_mastery/93"
+  },
+  {
+    "topic_id": 90,
+    "question": "Type assertion (`as`) nimani qiladi?",
+    "option_a": "Kompilyatorga tur haqida “ishonch” beradi (runtime’da o‘zgartirmaydi)",
+    "option_b": "Qiymatni runtime’da majburiy konvertatsiya qiladi",
+    "option_c": "Promise’ni resolve qiladi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — assertion runtime konvertatsiya emas. Noto‘g‘ri: C — promise bilan bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/216"
+  },
+  {
+    "topic_id": 91,
+    "question": "Quyidagilardan qaysi biri nisbiy (relative) CSS unit?",
+    "option_a": "`em`",
+    "option_b": "`px`",
+    "option_c": "`cm`",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `px` odatda absolyut birlik sifatida ishlatiladi. Noto‘g‘ri: C — `cm` fizik absolyut birlik.",
+    "video_url": "https://t.me/web_interview_mastery/50"
+  },
+  {
+    "topic_id": 92,
+    "question": "React’ning asosiy xususiyatlaridan biri qaysi?",
+    "option_a": "Komponentlarga bo‘lingan arxitektura va deklarativ UI",
+    "option_b": "HTML’ni to‘liq almashtirish",
+    "option_c": "Brauzerning o‘zini kompilyatsiya qilish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — React brauzerni kompilyatsiya qilmaydi. Noto‘g‘ri: B — React HTML o‘rnini bosmaydi, UI quradi.",
+    "video_url": "https://t.me/web_interview_mastery/248"
+  },
+  {
+    "topic_id": 93,
+    "question": "TypeScript’da `typeof` operatori qayerda foydali?",
+    "option_a": "Mavjud qiymatdan type olish (type query), masalan `typeof obj`",
+    "option_b": "CSS turini aniqlash",
+    "option_c": "HTML doctype’ni o‘zgartirish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — TS operatori CSSga tegishli emas. Noto‘g‘ri: C — doctype HTML qismida.",
+    "video_url": "https://t.me/web_interview_mastery/214"
+  },
+  {
+    "topic_id": 94,
+    "question": "DOM’da asinxron ishlarni boshqarishda qaysi yondashuv to‘g‘ri?",
+    "option_a": "Promise/async-await va event loop’ni tushunib ishlatish",
+    "option_b": "Har doim `while(true)` bilan kutish",
+    "option_c": "Hamma narsani sinxron XHRga o‘tkazish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu UI’ni muzlatadi. Noto‘g‘ri: C — sync XHR user experience’ni yomonlashtiradi.",
+    "video_url": "https://t.me/web_interview_mastery/187"
+  },
+  {
+    "topic_id": 95,
+    "question": "Higher-order function qaysi?",
+    "option_a": "Funksiya qabul qiladi yoki funksiya qaytaradi",
+    "option_b": "Faqat `for` sikli",
+    "option_c": "HTML tegi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — sikl funksiya emas. Noto‘g‘ri: C — HTML teglar funksiya emas.",
+    "video_url": "https://t.me/web_interview_mastery/106"
+  },
+  {
+    "topic_id": 96,
+    "question": "Rekursiya nima?",
+    "option_a": "Funksiya o‘zini o‘zi chaqirishi",
+    "option_b": "CSS’da meros olish",
+    "option_c": "HTTP redirect",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — bu network yo‘naltirish. Noto‘g‘ri: B — bu CSS inheritance tushunchasi.",
+    "video_url": "https://t.me/web_interview_mastery/108"
+  },
+  {
+    "topic_id": 97,
+    "question": "Bir nechta tema (light/dark) qilishning amaliy yo‘li qaysi?",
+    "option_a": "CSS custom properties (`--color`) va `data-theme`/class bilan almashtirish",
+    "option_b": "Har safar butun HTMLni serverdan qayta yuklash",
+    "option_c": "`<meta theme=...>` yozish kifoya",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — ortiqcha va sekin, tema CSS orqali boshqariladi. Noto‘g‘ri: C — bunday meta standart emas.",
+    "video_url": "https://t.me/web_interview_mastery/68"
+  },
+  {
+    "topic_id": 98,
+    "question": "`asserts` keyword qayerda ishlatiladi?",
+    "option_a": "Custom type guard funksiyalarda type’ni toraytirishni bildirish uchun",
+    "option_b": "CSS’da `@asserts` sifatida",
+    "option_c": "HTML atribut sifatida",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bunday CSS direktivasi yo‘q. Noto‘g‘ri: C — HTML atribut emas.",
+    "video_url": "https://t.me/web_interview_mastery/241"
+  },
+  {
+    "topic_id": 99,
+    "question": "Conditional type’da `extends` qanday ishlatiladi?",
+    "option_a": "`T extends U ? X : Y` ko‘rinishida shartli type tanlaydi",
+    "option_b": "`extends` faqat class merosi uchun",
+    "option_c": "`extends` runtime operator",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — conditional type’da ham ishlatiladi. Noto‘g‘ri: C — bu type-level, runtime emas.",
+    "video_url": "https://t.me/web_interview_mastery/222"
+  },
+  {
+    "topic_id": 100,
+    "question": "Factory pattern’ning asosiy foydasi qaysi?",
+    "option_a": "Obyekt yaratishni markazlashtirib, yaratish logikasini yashirish",
+    "option_b": "Har doim global singleton yaratish",
+    "option_c": "DOM event’larini bloklash",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — event bloklash boshqa masala. Noto‘g‘ri: B — factory singleton bo‘lishi shart emas.",
+    "video_url": "https://t.me/web_interview_mastery/136"
+  },
+  {
+    "topic_id": 101,
+    "question": "Diamond problem nimani anglatadi?",
+    "option_a": "Ko‘p meros olishda bir xil ajdoddan kelgan metod/holat kolliziyasi",
+    "option_b": "CSS grid’ning romb ko‘rinishi",
+    "option_c": "Promise chain’da `then` ikki marta chaqirilishi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — diamond problem OOP meros olishga taalluqli. Noto‘g‘ri: C — bu diamond problem emas.",
+    "video_url": "https://t.me/web_interview_mastery/145"
+  },
+  {
+    "topic_id": 102,
+    "question": "Event capturing nimani anglatadi?",
+    "option_a": "Event parent’dan target’ga pastga tushib borishi",
+    "option_b": "Event target’dan parent’ga yuqoriga chiqishi",
+    "option_c": "Eventni default harakatini to‘xtatish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — bu `preventDefault()`. Noto‘g‘ri: B — bu bubbling.",
+    "video_url": "https://t.me/web_interview_mastery/194"
+  },
+  {
+    "topic_id": 103,
+    "question": "`display: inline-block` ning `inline`dan farqi qaysi?",
+    "option_a": "Satr ichida turadi, lekin width/height berish mumkin",
+    "option_b": "Har doim yangi qatordan boshlanadi",
+    "option_c": "Faqat `<table>` elementlariga ishlaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `inline-block` ko‘p elementlarda ishlaydi. Noto‘g‘ri: B — bu `block`ga xos.",
+    "video_url": "https://t.me/web_interview_mastery/48"
+  },
+  {
+    "topic_id": 104,
+    "question": "SSR va CSR farqining to‘g‘ri izohi qaysi?",
+    "option_a": "SSR’da HTML serverda render bo‘ladi, CSR’da asosan brauzerda render bo‘ladi",
+    "option_b": "SSR faqat CSS, CSR faqat HTML",
+    "option_c": "CSR’da JavaScript ishlamaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — CSR odatda JS’ga tayanadi. Noto‘g‘ri: B — ikkalasida ham CSS/HTML bo‘ladi, farq render joyida.",
+    "video_url": "https://t.me/web_interview_mastery/276"
+  },
+  {
+    "topic_id": 105,
+    "question": "Pipe funksiyasi odatda nima qiladi?",
+    "option_a": "Funksiyalarni chapdan o‘ngga ketma-ket qo‘llaydi",
+    "option_b": "Array’ni teskari qiladi",
+    "option_c": "DOM’ni qayta yuklaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu `reverse()`ga o‘xshaydi. Noto‘g‘ri: C — pipe DOM reload emas.",
+    "video_url": "https://t.me/web_interview_mastery/110"
+  },
+  {
+    "topic_id": 106,
+    "question": "Closure qachon paydo bo‘ladi?",
+    "option_a": "Ichki funksiya tashqi scope’dagi o‘zgaruvchilarga kirishni saqlab qolganda",
+    "option_b": "CSS fayl yuklanganda",
+    "option_c": "HTML valid bo‘lganda",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — closure HTML validatsiyasi emas. Noto‘g‘ri: B — closure CSS bilan bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/150"
+  },
+  {
+    "topic_id": 107,
+    "question": "TDZ (Temporal Dead Zone) qachon yuz beradi?",
+    "option_a": "`let/const` e’lon qilingan joygacha bo‘lgan oraliqda ularga murojaat qilinganda",
+    "option_b": "`var` bilan e’lon qilinganda",
+    "option_c": "Faol bo‘lmagan tab’da",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `var` TDZga ega emas. Noto‘g‘ri: C — TDZ tab faolligiga bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/76"
+  },
+  {
+    "topic_id": 108,
+    "question": "SOLID’dagi “S” nimani bildiradi?",
+    "option_a": "Single Responsibility Principle",
+    "option_b": "Secure Runtime Principle",
+    "option_c": "Static Layout Principle",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — layout SOLID prinsipi emas. Noto‘g‘ri: B — bunday SOLID harfi yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/146"
+  },
+  {
+    "topic_id": 109,
+    "question": "`keyof` operatori nimani qaytaradi?",
+    "option_a": "Type’ning property key’lari birlashmasini (union)",
+    "option_b": "Obyektning qiymatlari massivini",
+    "option_c": "DOM elementlari ro‘yxatini",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — DOM ro‘yxati type operator emas. Noto‘g‘ri: B — bu runtime `Object.values`, `keyof` esa type level.",
+    "video_url": "https://t.me/web_interview_mastery/215"
+  },
+  {
+    "topic_id": 110,
+    "question": "Semantik HTML elementining foydasi nimada?",
+    "option_a": "Kontent ma’nosini aniqroq beradi (SEO va accessibilityga yordam)",
+    "option_b": "Sahifani faqat tezroq yuklaydi, ma’noga ta’sir qilmaydi",
+    "option_c": "JavaScriptni o‘chirib qo‘yadi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — tezlikka bevosita kafolat yo‘q, asosiy foyda semantika. Noto‘g‘ri: C — semantik teglar JSni boshqarmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/32"
+  },
+  {
+    "topic_id": 111,
+    "question": "`hasOwnProperty()` va `in` operatorining farqi qaysi?",
+    "option_a": "`hasOwnProperty` faqat o‘z property’sini, `in` esa prototip zanjirini ham tekshiradi",
+    "option_b": "`in` faqat o‘z property’sini tekshiradi",
+    "option_c": "`hasOwnProperty` faqat arraylarda ishlaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `in` prototipdagi property’ni ham topishi mumkin. Noto‘g‘ri: C — `hasOwnProperty` ko‘p obyektlarda ishlaydi.",
+    "video_url": "https://t.me/web_interview_mastery/135"
+  },
+  {
+    "topic_id": 112,
+    "question": "Service Worker qaysi imkoniyatni beradi?",
+    "option_a": "Offline cache, background sync va push kabi web capability’lar",
+    "option_b": "CPU’ni tezlatish",
+    "option_c": "HTML’ni serverga aylantirish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — service worker CPU tezlatmaydi, caching/online-offline bilan ishlaydi. Noto‘g‘ri: C — serverga aylantirish emas.",
+    "video_url": "https://t.me/web_interview_mastery/162"
+  },
+  {
+    "topic_id": 113,
+    "question": "Web Worker nimaga kerak?",
+    "option_a": "Og‘ir hisob-kitobni asosiy UI thread’dan ajratib, background’da bajarish",
+    "option_b": "CSS’ni inline qilish",
+    "option_c": "DOM’ni bevosita o‘zgartirish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — worker’lar DOMga bevosita kira olmaydi. Noto‘g‘ri: B — worker CSS bilan bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/163"
+  },
+  {
+    "topic_id": 114,
+    "question": "`<!DOCTYPE html>` deklaratsiyasi nimaga xizmat qiladi?",
+    "option_a": "Brauzerga hujjat HTML5 ekanini bildiradi",
+    "option_b": "Sahifaga CSS faylini avtomatik ulaydi",
+    "option_c": "JavaScriptni majburiy yoqib qo‘yadi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — JavaScriptni `DOCTYPE` boshqarmaydi. Noto‘g‘ri: B — CSS ulash `<link>` bilan qilinadi.",
+    "video_url": "https://t.me/web_interview_mastery/26"
+  },
+  {
+    "topic_id": 115,
+    "question": "`DOMContentLoaded` qachon ishga tushadi?",
+    "option_a": "DOM to‘liq parse bo‘lganda (rasmlar/styles yuklanishini kutmasdan)",
+    "option_b": "Barcha resurslar yuklangandan keyin",
+    "option_c": "Faqat `defer` bo‘lmagan skriptlar tugagandan keyin hamisha",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `defer` va parsing tartibi ta’sir qiladi, lekin ta’rif noto‘g‘ri. Noto‘g‘ri: B — bu `load` hodisasiga yaqin.",
+    "video_url": "https://t.me/web_interview_mastery/188"
+  },
+  {
+    "topic_id": 116,
+    "question": "Media query odatda nimani ta’minlaydi?",
+    "option_a": "Turli ekran o‘lchami/sharoitga mos responsiv stil",
+    "option_b": "JS funksiyalarini kompilyatsiya qilish",
+    "option_c": "DNS yozuvlarini o‘zgartirish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — CSS media query JS kompilyatsiyasi bilan bog‘liq emas. Noto‘g‘ri: C — DNS tarmoq infratuzilmasi.",
+    "video_url": "https://t.me/web_interview_mastery/55"
+  },
+  {
+    "topic_id": 117,
+    "question": "Promise nima?",
+    "option_a": "Asinxron natijani (future value) ifodalovchi obyekt",
+    "option_b": "CSS selektor turi",
+    "option_c": "HTML atributi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — promise JS asinxron modeli, CSS selektor emas. Noto‘g‘ri: C — HTML atribut emas.",
+    "video_url": "https://t.me/web_interview_mastery/196"
+  },
+  {
+    "topic_id": 118,
+    "question": "CSS Grid’da `grid-template-columns: repeat(3, 1fr)` nimani bildiradi?",
+    "option_a": "3 ta teng ustun yaratadi",
+    "option_b": "3 ta qator yaratadi",
+    "option_c": "3 ta elementni absolute qiladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — absolute position boshqa xossa. Noto‘g‘ri: B — qatorlar `grid-template-rows` bilan.",
+    "video_url": "https://t.me/web_interview_mastery/69"
+  },
+  {
+    "topic_id": 119,
+    "question": "HTML entities (masalan `&amp;lt;`) nima uchun kerak?",
+    "option_a": "Maxsus belgilarni HTMLda xavfsiz ko‘rsatish uchun",
+    "option_b": "HTTP headerlarni o‘zgartirish uchun",
+    "option_c": "CSS selektorlarini yaratish uchun",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — headerlar server/HTTP qismida. Noto‘g‘ri: C — selektorlar CSS sintaksisida yoziladi.",
+    "video_url": "https://t.me/web_interview_mastery/44"
+  },
+  {
+    "topic_id": 120,
+    "question": "Module pattern’ning maqsadi qaysi?",
+    "option_a": "Scope orqali encapsulation va public/private API ajratish",
+    "option_b": "Barcha o‘zgaruvchilarni global qilish",
+    "option_c": "CSS’ni inline qilish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — inline CSS module pattern emas. Noto‘g‘ri: B — module pattern global’ni kamaytiradi.",
+    "video_url": "https://t.me/web_interview_mastery/139"
+  },
+  {
+    "topic_id": 121,
+    "question": "Decorator pattern nimaga xizmat qiladi?",
+    "option_a": "Obyektga/klassga yangi xatti-harakatni runtime’da “o‘rash” orqali qo‘shish",
+    "option_b": "Faoliyatni faqat meros orqali kengaytirish",
+    "option_c": "HTTP so‘rovni shifrlash",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — decorator merosdan tashqari kompozitsiyani ham beradi. Noto‘g‘ri: C — shifrlash boshqa qatlam.",
+    "video_url": "https://t.me/web_interview_mastery/138"
+  },
+  {
+    "topic_id": 122,
+    "question": "Arrow funksiya va oddiy funksiya farqining to‘g‘ri misoli qaysi?",
+    "option_a": "Arrow funksiyada o‘zining `this`i bo‘lmaydi (lexical this)",
+    "option_b": "Arrow funksiya `new` bilan constructor bo‘la oladi",
+    "option_c": "Oddiy funksiya hech qachon hoisting qilinmaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — arrow funksiya constructor emas. Noto‘g‘ri: C — function declaration hoisting qilinadi.",
+    "video_url": "https://t.me/web_interview_mastery/95"
+  },
+  {
+    "topic_id": 123,
+    "question": "Heap xotira ko‘proq qaysi holatda ishlatiladi?",
+    "option_a": "Dinamik ajratiladigan obyektlar (object/array) uchun",
+    "option_b": "Faqat primitive qiymatlar uchun",
+    "option_c": "Faqat rekursiya uchun",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — primitive ko‘pincha stack’da bo‘ladi (implga bog‘liq). Noto‘g‘ri: C — rekursiya call stack’ga bog‘liq.",
+    "video_url": "https://t.me/web_interview_mastery/81"
+  },
+  {
+    "topic_id": 124,
+    "question": "CSS preprocessor’ga misol qaysi?",
+    "option_a": "Sass/SCSS",
+    "option_b": "HTML",
+    "option_c": "HTTP",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — HTML markup tili. Noto‘g‘ri: C — HTTP protokol.",
+    "video_url": "https://t.me/web_interview_mastery/64"
+  },
+  {
+    "topic_id": 125,
+    "question": "React’da list render qilganda `key` prop nimaga kerak?",
+    "option_a": "Reconciliation’da elementlarni to‘g‘ri moslashtirish va update’ni optimizatsiya qilish uchun",
+    "option_b": "CSS’ni avtomatik qo‘shish uchun",
+    "option_c": "HTTP so‘rovni tezlatish uchun",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `key` stil qo‘shmaydi. Noto‘g‘ri: C — `key` network tezligiga ta’sir qilmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/272"
+  },
+  {
+    "topic_id": 126,
+    "question": "Event delegation nimaga foydali?",
+    "option_a": "Ko‘p child elementlar o‘rniga bitta parent’da event tinglash (bubble’dan foydalanish)",
+    "option_b": "Event’larni butunlay o‘chirib qo‘yish",
+    "option_c": "CSS media query’ni almashtirish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — media query CSSga tegishli. Noto‘g‘ri: B — delegation event’ni o‘chirmaydi, boshqarishni yaxshilaydi.",
+    "video_url": "https://t.me/web_interview_mastery/181"
+  },
+  {
+    "topic_id": 127,
+    "question": "HTML nimani anglatadi?",
+    "option_a": "HyperText Markup Language",
+    "option_b": "High Transfer Machine Language",
+    "option_c": "Hyper Tool Multi Language",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — HTML uzatish protokoli emas. Noto‘g‘ri: C — HTML dasturlash tili emas, belgilash (markup) tili.",
+    "video_url": "https://t.me/web_interview_mastery/25"
+  },
+  {
+    "topic_id": 128,
+    "question": "`call`, `apply`, `bind` nimani boshqaradi?",
+    "option_a": "Funksiya chaqirilishida `this` va argumentlarni",
+    "option_b": "CSS specificity’ni",
+    "option_c": "DOM’ni parsing qilishni",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu CSSga tegishli. Noto‘g‘ri: C — parsing brauzerning HTML parseri.",
+    "video_url": "https://t.me/web_interview_mastery/91"
+  },
+  {
+    "topic_id": 129,
+    "question": "Webpack’ning asosiy vazifasi qaysi?",
+    "option_a": "Modullarni bundling qilish (assetlarni yig‘ish) va build jarayonini boshqarish",
+    "option_b": "Brauzer engine’ini almashtirish",
+    "option_c": "DNS yozuvlarini avtomatik qilish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — webpack brauzer engine emas. Noto‘g‘ri: C — DNS bilan bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/160"
+  },
+  {
+    "topic_id": 130,
+    "question": "Dinamik qo‘shilgan elementlar bilan event ishlatishning to‘g‘ri yo‘li qaysi?",
+    "option_a": "Parent’da event delegation qilish",
+    "option_b": "Har safar barcha elementlarga qayta listener qo‘shish shart",
+    "option_c": "Eventlar dinamik elementlarga umuman ishlamaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — delegation bilan qayta-qayta qo‘shish shart emas. Noto‘g‘ri: C — ishlaydi, faqat to‘g‘ri bog‘lash kerak.",
+    "video_url": "https://t.me/web_interview_mastery/190"
+  },
+  {
+    "topic_id": 131,
+    "question": "Stack xotira odatda nimaga mos?",
+    "option_a": "Call stack va kichik, tez ajratiladigan ma’lumotlarga",
+    "option_b": "Katta obyektlar va dinamik strukturalarga",
+    "option_c": "GPU shader kodiga",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — stack/heap CPU xotira modeli, GPU shader emas. Noto‘g‘ri: B — bu ko‘proq heapga xos.",
+    "video_url": "https://t.me/web_interview_mastery/80"
+  },
+  {
+    "topic_id": 132,
+    "question": "`box-sizing: border-box` nima qiladi?",
+    "option_a": "Width/height ichiga padding va borderni ham kiritadi",
+    "option_b": "Elementni har doim inline qiladi",
+    "option_c": "Z-index’ni avtomatik oshiradi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — display’ni `box-sizing` o‘zgartirmaydi. Noto‘g‘ri: C — `z-index` boshqa xossa.",
+    "video_url": "https://t.me/web_interview_mastery/47"
+  },
+  {
+    "topic_id": 133,
+    "question": "Encapsulation nimani bildiradi?",
+    "option_a": "Ichki holatni yashirish va tashqi API orqali boshqarish",
+    "option_b": "Barcha property’larni public qilish",
+    "option_c": "Barcha metodlarni global qilish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — global qilish boshqaruvni qiyinlashtiradi. Noto‘g‘ri: B — encapsulation yashirishga intiladi.",
+    "video_url": "https://t.me/web_interview_mastery/121"
+  },
+  {
+    "topic_id": 134,
+    "question": "Constructor funksiya odatda qanday maqsadda ishlatiladi?",
+    "option_a": "`new` bilan obyekt yaratish va initial holat berish",
+    "option_b": "CSS class qo‘shish",
+    "option_c": "DOM’ni render qilish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu DOM/classList vazifasi. Noto‘g‘ri: C — render tushunchasi UI kutubxonalariga tegishli.",
+    "video_url": "https://t.me/web_interview_mastery/100"
+  },
+  {
+    "topic_id": 135,
+    "question": "`WeakMap` ning `Map`dan asosiy farqi qaysi?",
+    "option_a": "Kalitlari faqat obyekt bo‘ladi va garbage collectionga mos (weak reference)",
+    "option_b": "Kalitlari faqat string bo‘ladi",
+    "option_c": "`WeakMap` iteratsiya qilinadi, `Map` qilinmaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `WeakMap` kaliti string bo‘la olmaydi, obyekt bo‘lishi kerak. Noto‘g‘ri: C — aksincha, `Map` iteratsiya qilinadi, `WeakMap` emas.",
+    "video_url": "https://t.me/web_interview_mastery/94"
+  },
+  {
+    "topic_id": 136,
+    "question": "Memoization nima beradi?",
+    "option_a": "Oldingi hisob-kitob natijasini keshlash orqali tezlikni oshirish",
+    "option_b": "Kodni minify qilish",
+    "option_c": "DOM’ni repaint qilish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — minify build jarayoni. Noto‘g‘ri: C — repaint UI rendering bilan bog‘liq.",
+    "video_url": "https://t.me/web_interview_mastery/151"
+  },
+  {
+    "topic_id": 137,
+    "question": "Inline CSS qaysi ko‘rinishda yoziladi?",
+    "option_a": "Elementning `style` atributida",
+    "option_b": "Alohida `.css` faylda",
+    "option_c": "`<head>` ichida `<script>`da",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `<script>` JS uchun. Noto‘g‘ri: B — bu external CSS.",
+    "video_url": "https://t.me/web_interview_mastery/63"
+  },
+  {
+    "topic_id": 138,
+    "question": "Promise’lar callback’lardan qaysi muammoni kamaytirishga yordam beradi?",
+    "option_a": "Callback hell (chuqur nested callbacklar) va oqimni boshqarishni",
+    "option_b": "CSS specificity muammosini",
+    "option_c": "HTML entity’larni",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — bu HTML encoding masalasi. Noto‘g‘ri: B — bu CSS muammosi.",
+    "video_url": "https://t.me/web_interview_mastery/159"
+  },
+  {
+    "topic_id": 139,
+    "question": "JSX nima?",
+    "option_a": "JavaScript ichida HTMLga o‘xshash sintaksis (transpile bo‘ladi)",
+    "option_b": "Brauzer tushunadigan yangi markup tili",
+    "option_c": "CSS selector tili",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — JSX odatda JSga transpile qilinadi. Noto‘g‘ri: C — CSS selektor emas.",
+    "video_url": "https://t.me/web_interview_mastery/249"
+  },
+  {
+    "topic_id": 140,
+    "question": "`Partial<T>` nimani o‘zgartiradi?",
+    "option_a": "`T` dagi barcha property’larni ixtiyoriy (optional) qiladi",
+    "option_b": "`T` dagi hamma property’ni `readonly` qiladi",
+    "option_c": "`T`ni `null` qiladi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu `Readonly<T>`ga o‘xshaydi. Noto‘g‘ri: C — bunday utility type yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/220"
+  },
+  {
+    "topic_id": 141,
+    "question": "TypeScript’da `this` turi nimaga kerak?",
+    "option_a": "Metodlar zanjirida (fluent API) to‘g‘ri subtype’ni saqlashga",
+    "option_b": "DOM’ni o‘qishga ruxsat berishga",
+    "option_c": "Promise’ni resolve qilishga",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `this` turi type tizimi, DOM ruxsati emas. Noto‘g‘ri: C — promise bilan bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/242"
+  },
+  {
+    "topic_id": 142,
+    "question": "Pseudo-classga to‘g‘ri misol qaysi?",
+    "option_a": "`:focus`",
+    "option_b": "`::after`",
+    "option_c": "`<div>`",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — bu HTML tegi. Noto‘g‘ri: B — bu pseudo-element.",
+    "video_url": "https://t.me/web_interview_mastery/54"
+  },
+  {
+    "topic_id": 143,
+    "question": "Lexical environment qaysi narsalarni saqlaydi?",
+    "option_a": "Identifierlar va ularning qiymatlari, tashqi muhitga (outer) havola",
+    "option_b": "Faqat CSS qoidalarini",
+    "option_c": "Faqat DOM node’larni",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — lexical environment JS engine tushunchasi. Noto‘g‘ri: C — DOM alohida struktura.",
+    "video_url": "https://t.me/web_interview_mastery/148"
+  },
+  {
+    "topic_id": 144,
+    "question": "Multi-thread muhitida oddiy singleton qanday muammo keltirishi mumkin?",
+    "option_a": "Race condition sabab bir nechta instans yaralib ketishi",
+    "option_b": "HTML parsing to‘xtab qolishi",
+    "option_c": "CSS fayl yuklanmasligi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu brauzer parseriga tegishli. Noto‘g‘ri: C — singleton bilan CSS yuklanishi bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/131"
+  },
+  {
+    "topic_id": 145,
+    "question": "DOM’da “traversal” (elementlar orasida yurish) uchun qaysi property to‘g‘ri?",
+    "option_a": "`parentElement`",
+    "option_b": "`parentHtml`",
+    "option_c": "`parentCss`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bunday DOM property yo‘q. Noto‘g‘ri: C — bunday DOM property yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/195"
+  },
+  {
+    "topic_id": 146,
+    "question": "`this` kalit so‘zi nimani bildiradi?",
+    "option_a": "Chaqiruv kontekstiga bog‘liq joriy obyektga ishora",
+    "option_b": "Har doim global `window`ni bildiradi",
+    "option_c": "Faqat class ichida ishlaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — funksiya/obyekt metodlarida ham ishlaydi. Noto‘g‘ri: B — strict mode/chaqiruv turiga qarab o‘zgaradi.",
+    "video_url": "https://t.me/web_interview_mastery/90"
+  },
+  {
+    "topic_id": 147,
+    "question": "Function composition g‘oyasi qaysi?",
+    "option_a": "Kichik funksiyalarni zanjir qilib, natijani keyingisiga berish",
+    "option_b": "Bir funksiya ichida `eval` ishlatish",
+    "option_c": "Har doim class merosi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `eval` composition sharti emas va xavfli. Noto‘g‘ri: C — composition OOP merosiga bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/109"
+  },
+  {
+    "topic_id": 148,
+    "question": "`display: none` va `visibility: hidden` farqi qaysi?",
+    "option_a": "`display:none` joyni ham olib tashlaydi, `visibility:hidden` joyni saqlaydi",
+    "option_b": "Ikkalasi ham joyni saqlaydi",
+    "option_c": "Ikkalasi ham DOM’dan elementni o‘chiradi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `display:none` layoutdan chiqaradi. Noto‘g‘ri: C — element DOM’da qoladi.",
+    "video_url": "https://t.me/web_interview_mastery/58"
+  },
+  {
+    "topic_id": 149,
+    "question": "Optional chaining (`?.`) nimani oldini oladi?",
+    "option_a": "`null/undefined` bo‘lsa property o‘qishda xato (TypeError) chiqishini",
+    "option_b": "Promise’ni bekor qilishni",
+    "option_c": "CSS kaskadni",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — optional chaining Promise cancel emas. Noto‘g‘ri: C — CSS kaskad boshqa tushuncha.",
+    "video_url": "https://t.me/web_interview_mastery/92"
+  },
+  {
+    "topic_id": 150,
+    "question": "Error Boundary nimani “ushlaydi”?",
+    "option_a": "Render/lifecycle ichidagi xatolarni (child tree) va fallback UI ko‘rsatadi",
+    "option_b": "Async `fetch` xatolarini avtomatik tutadi",
+    "option_c": "CSS xatolarini kompilyatsiya qiladi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — Error Boundary async handler’lar xatolarini avtomatik ushlamaydi. Noto‘g‘ri: C — CSS kompilyatsiya React vazifasi emas.",
+    "video_url": "https://t.me/web_interview_mastery/275"
+  },
+  {
+    "topic_id": 151,
+    "question": "DOM nima?",
+    "option_a": "Hujjatni (HTML/XML) obyektlar daraxti ko‘rinishida ifodalovchi model",
+    "option_b": "Ma’lumotlar bazasi jadvali",
+    "option_c": "CSS preprocessor",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — DOM stil preprocessor emas. Noto‘g‘ri: B — DOM DB emas.",
+    "video_url": "https://t.me/web_interview_mastery/178"
+  },
+  {
+    "topic_id": 152,
+    "question": "Abstract class va interface farqi bo‘yicha qaysi gap to‘g‘ri?",
+    "option_a": "Abstract class implementatsiya ham berishi mumkin, interface esa asosan kontrakt",
+    "option_b": "Interface runtime’da obyekt yaratadi",
+    "option_c": "Abstract class’da constructor bo‘la olmaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — interface compile-time. Noto‘g‘ri: C — abstract class’da constructor bo‘lishi mumkin.",
+    "video_url": "https://t.me/web_interview_mastery/234"
+  },
+  {
+    "topic_id": 153,
+    "question": "Reference (non-primitive) turlarda nusxa olishda asosiy muammo qaysi?",
+    "option_a": "O‘zgaruvchi qiymat emas, manzil (reference)ni saqlaydi",
+    "option_b": "Ular umuman xotirada saqlanmaydi",
+    "option_c": "Ular faqat `const` bilan ishlaydi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — object/array heap’da saqlanadi. Noto‘g‘ri: C — `let` bilan ham ishlaydi.",
+    "video_url": "https://t.me/web_interview_mastery/79"
+  },
+  {
+    "topic_id": 154,
+    "question": "TypeScript’da `readonly` nimani ta’minlaydi?",
+    "option_a": "Property’ni qayta yozishni taqiqlaydi (compile time)",
+    "option_b": "Property’ni DOM’dan yashiradi",
+    "option_c": "Har doim deep immutability beradi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `readonly` odatda shallow, deep emas. Noto‘g‘ri: B — TS DOM’ni boshqarmaydi, typing.",
+    "video_url": "https://t.me/web_interview_mastery/206"
+  },
+  {
+    "topic_id": 155,
+    "question": "CSS va SCSS o‘zgaruvchilari farqi bo‘yicha to‘g‘ri gap qaysi?",
+    "option_a": "SCSS `$var` build’da yechiladi, CSS `--var` runtime’da hisoblanadi",
+    "option_b": "CSS o‘zgaruvchisi faqat compile vaqtida ishlaydi",
+    "option_c": "SCSS o‘zgaruvchisi DOM’da o‘zgaradi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — CSS custom properties runtime’da ishlaydi. Noto‘g‘ri: C — SCSS compile vaqtida.",
+    "video_url": "https://t.me/web_interview_mastery/67"
+  },
+  {
+    "topic_id": 156,
+    "question": "`keyof typeof obj` ifodasi odatda nimani beradi?",
+    "option_a": "`obj` qiymatining type’idan key’lar unionini",
+    "option_b": "`obj` qiymatlarini runtime’da qaytaradi",
+    "option_c": "`obj`ni JSONga aylantiradi",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu type-level, runtime emas. Noto‘g‘ri: C — JSONga aylantirish boshqa.",
+    "video_url": "https://t.me/web_interview_mastery/239"
+  },
+  {
+    "topic_id": 157,
+    "question": "`unknown` va `any` farqi bo‘yicha qaysi gap to‘g‘ri?",
+    "option_a": "`unknown` xavfsizroq: ishlatishdan oldin type tekshirish talab qiladi",
+    "option_b": "`any` xavfsizroq: barcha operatsiyalarni taqiqlaydi",
+    "option_c": "`unknown` faqat `null` bo‘lishi mumkin",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `any` type checking’ni o‘chiradi. Noto‘g‘ri: C — `unknown` har qanday qiymat bo‘lishi mumkin.",
+    "video_url": "https://t.me/web_interview_mastery/202"
+  },
+  {
+    "topic_id": 158,
+    "question": "Lifecycle metodlari (yoki hook’lar) nimani boshqaradi?",
+    "option_a": "Mount/update/unmount jarayonlarida side effect va holat boshqaruvi",
+    "option_b": "CSS specificity hisobini",
+    "option_c": "DNS keshini",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu CSS masalasi. Noto‘g‘ri: C — DNS networking.",
+    "video_url": "https://t.me/web_interview_mastery/270"
+  },
+  {
+    "topic_id": 159,
+    "question": "React’da Props va State farqi qaysi?",
+    "option_a": "Props tashqaridan keladi (read-only), state komponentning ichki o‘zgaruvchan holati",
+    "option_b": "State read-only, props esa faqat ichki",
+    "option_c": "Ikkalasi ham faqat class komponentda bor",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — teskari aytilgan. Noto‘g‘ri: C — hook’lar bilan functional komponentda ham state bor.",
+    "video_url": "https://t.me/web_interview_mastery/267"
+  },
+  {
+    "topic_id": 160,
+    "question": "Function overload TypeScript’da nimani beradi?",
+    "option_a": "Bir funksiya uchun bir nechta chaqirish signaturalarini aniqlash",
+    "option_b": "Funksiyani bir nechta faylga bo‘lish",
+    "option_c": "Runtime’da avtomatik switch-case yaratish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — overload compile-time, runtime kod yaratmaydi. Noto‘g‘ri: B — bu modul/fayl strukturasi masalasi.",
+    "video_url": "https://t.me/web_interview_mastery/243"
+  },
+  {
+    "topic_id": 161,
+    "question": "Flexbox’ning asosiy g‘oyasi qaysi?",
+    "option_a": "Bir o‘lchamli yo‘nalishda elementlarni moslashuvchan joylashtirish",
+    "option_b": "Vektor grafika chizish",
+    "option_c": "Ma’lumotlar bazasini indekslash",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu SVG/Canvasga tegishli. Noto‘g‘ri: C — bu DB tushunchasi.",
+    "video_url": "https://t.me/web_interview_mastery/52"
+  },
+  {
+    "topic_id": 162,
+    "question": "`Record<K, T>` nimani ifodalaydi?",
+    "option_a": "Kalitlari `K` bo‘lgan va qiymati `T` bo‘lgan obyekt turi",
+    "option_b": "Array’ning maxsus turi",
+    "option_c": "Promise’ning turi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — promise bilan bog‘liq emas. Noto‘g‘ri: B — record object mapping.",
+    "video_url": "https://t.me/web_interview_mastery/218"
+  },
+  {
+    "topic_id": 163,
+    "question": "HTML5 ning HTML4 dan muhim farqlaridan biri qaysi?",
+    "option_a": "Yangi semantik teglar (`header`, `nav`, `section`) kiritilgan",
+    "option_b": "HTML5 faqat XML sintaksisida ishlaydi",
+    "option_c": "HTML5 da `<div>` taqiqlangan",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `<div>` ishlatilaveradi. Noto‘g‘ri: B — bu XHTMLga xos, HTML5 HTML sintaksisini ham qo‘llaydi.",
+    "video_url": "https://t.me/web_interview_mastery/33"
+  },
+  {
+    "topic_id": 164,
+    "question": "`z-index` qachon ishlaydi?",
+    "option_a": "Positioned elementlarda (masalan `position: relative/absolute/fixed`) stacking context ichida",
+    "option_b": "Faqat `display: inline` bo‘lsa",
+    "option_c": "Faqat HTML `meta` tegida",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `display` shart emas, stacking/position muhim. Noto‘g‘ri: C — `z-index` CSS xossasi.",
+    "video_url": "https://t.me/web_interview_mastery/59"
+  },
+  {
+    "topic_id": 165,
+    "question": "Tashqi CSS faylni HTMLga to‘g‘ri ulash qaysi?",
+    "option_a": "`<link rel=\"stylesheet\" href=\"styles.css\">`",
+    "option_b": "`<script src=\"styles.css\"></script>`",
+    "option_c": "`<style src=\"styles.css\"></style>`",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — `<script>` JS uchun. Noto‘g‘ri: C — `<style>` tashqi faylni `src` bilan olmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/38"
+  },
+  {
+    "topic_id": 166,
+    "question": "Abstraction nimaga qaratilgan?",
+    "option_a": "Keraksiz detallarni yashirib, muhim interfeysni ko‘rsatishga",
+    "option_b": "Har bir detalni foydalanuvchiga ko‘rsatishga",
+    "option_c": "Faqat CSS class nomlarini qisqartirishga",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu abstractionga zid. Noto‘g‘ri: C — class nomi qisqartirish alohida masala.",
+    "video_url": "https://t.me/web_interview_mastery/123"
+  },
+  {
+    "topic_id": 167,
+    "question": "Class komponentdagi `render()` metodining vazifasi nima?",
+    "option_a": "UI’ni tasvirlovchi React elementlarini qaytarish",
+    "option_b": "DOM’ni qo‘lda `appendChild` bilan qurish",
+    "option_c": "HTTP so‘rov yuborish",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `render` tarmoq so‘rovi emas. Noto‘g‘ri: B — React deklarativ, DOM’ni qo‘lda qurish shart emas.",
+    "video_url": "https://t.me/web_interview_mastery/251"
+  },
+  {
+    "topic_id": 168,
+    "question": "CSS specificity’da qaysi biri kuchliroq?",
+    "option_a": "ID selektor (`#id`)",
+    "option_b": "Class selektor (`.class`)",
+    "option_c": "Element selektor (`div`)",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — class ID’dan past turadi. Noto‘g‘ri: C — element selektor eng pastlardan biri.",
+    "video_url": "https://t.me/web_interview_mastery/56"
+  },
+  {
+    "topic_id": 169,
+    "question": "`img` dagi `alt` atributining asosiy maqsadi nima?",
+    "option_a": "Rasm yuklanmasa yoki screen reader uchun matnli tavsif berish",
+    "option_b": "Rasmni avtomatik siqish (compress) qilish",
+    "option_c": "Rasmni fon rasmiga aylantirish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — siqish server/build jarayonida bo‘ladi, `alt` emas. Noto‘g‘ri: C — fon rasmi CSS bilan beriladi.",
+    "video_url": "https://t.me/web_interview_mastery/34"
+  },
+  {
+    "topic_id": 170,
+    "question": "`Exclude<T, U>` nima qiladi?",
+    "option_a": "`T` dan `U` ga mos turlarni olib tashlaydi",
+    "option_b": "`T` va `U` ni birlashtiradi",
+    "option_c": "`T`ni `U`ga aylantiradi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — bu union/merge emas. Noto‘g‘ri: C — bu mapping/convert emas.",
+    "video_url": "https://t.me/web_interview_mastery/219"
+  },
+  {
+    "topic_id": 171,
+    "question": "Quyidagilardan qaysi biri primitive tur?",
+    "option_a": "`string`",
+    "option_b": "`object`",
+    "option_c": "`array`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — object reference tur. Noto‘g‘ri: C — array ham object (reference) tur.",
+    "video_url": "https://t.me/web_interview_mastery/78"
+  },
+  {
+    "topic_id": 172,
+    "question": "Stack va Heap o‘rtasidagi asosiy farq qaysi?",
+    "option_a": "Stack — LIFO va tez, Heap — dinamik va ko‘pincha sekinroq boshqariladi",
+    "option_b": "Heap faqat primitive’lar uchun",
+    "option_c": "Stack faqat DOM uchun",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — heap ko‘proq obyektlar uchun. Noto‘g‘ri: C — DOM obyektlari ham heap’da.",
+    "video_url": "https://t.me/web_interview_mastery/84"
+  },
+  {
+    "topic_id": 173,
+    "question": "`preventDefault()` va `stopPropagation()` farqi qaysi?",
+    "option_a": "Biri defaultni to‘xtatadi, biri event tarqalishini",
+    "option_b": "Ikkalasi ham bir xil",
+    "option_c": "`stopPropagation()` faqat form submit’da ishlaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `stopPropagation` ko‘p eventlarda ishlaydi. Noto‘g‘ri: B — vazifalari boshqa-boshqa.",
+    "video_url": "https://t.me/web_interview_mastery/185"
+  },
+  {
+    "topic_id": 174,
+    "question": "Functional programming’ning muhim g‘oyalaridan biri qaysi?",
+    "option_a": "Pure funksiyalar va yon ta’sirlarni (side effect) kamaytirish",
+    "option_b": "Hammasini class orqali yozish",
+    "option_c": "Global mutable state’ni ko‘paytirish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — FP class’ga majbur qilmaydi. Noto‘g‘ri: C — FP odatda mutable global state’dan qochadi.",
+    "video_url": "https://t.me/web_interview_mastery/101"
+  },
+  {
+    "topic_id": 175,
+    "question": "Garbage collection’ning vazifasi nima?",
+    "option_a": "Keraksiz (reachable bo‘lmagan) obyektlarni xotiradan tozalash",
+    "option_b": "CSS’ni avtomatik yozish",
+    "option_c": "Serverni restart qilish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — GC CSS bilan bog‘liq emas. Noto‘g‘ri: C — GC runtime ichida, server restart emas.",
+    "video_url": "https://t.me/web_interview_mastery/87"
+  },
+  {
+    "topic_id": 176,
+    "question": "DOM’da attribute va property farqi bo‘yicha to‘g‘ri gap qaysi?",
+    "option_a": "Attribute — HTMLdagi qiymat, property — DOM obyektidagi joriy holat",
+    "option_b": "Property faqat string bo‘ladi",
+    "option_c": "Attribute’lar JS’da o‘qilmaydi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — property turli turlarda bo‘lishi mumkin (boolean va h.k.). Noto‘g‘ri: C — `getAttribute` bilan o‘qiladi.",
+    "video_url": "https://t.me/web_interview_mastery/189"
+  },
+  {
+    "topic_id": 177,
+    "question": "HTML’dagi void elementga misol qaysi?",
+    "option_a": "`<img>`",
+    "option_b": "`<div></div>`",
+    "option_c": "`<span></span>`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — `div` yopiluvchi teg. Noto‘g‘ri: C — `span` ham yopiluvchi teg.",
+    "video_url": "https://t.me/web_interview_mastery/37"
+  },
+  {
+    "topic_id": 178,
+    "question": "Brauzer HTML sahifani o‘qishda (rendering) birinchi navbatda nimani quradi?",
+    "option_a": "DOM daraxtini",
+    "option_b": "SQL jadvalini",
+    "option_c": "Bytecode VM’ni",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — SQL brauzer rendering jarayoniga tegishli emas. Noto‘g‘ri: C — bytecode VM JS engine ichida, HTML parsingning birinchi bosqichi emas.",
+    "video_url": "https://t.me/web_interview_mastery/40"
+  },
+  {
+    "topic_id": 179,
+    "question": "TypeScript’da `enum` nima?",
+    "option_a": "Nomlangan konstantalar to‘plami",
+    "option_b": "DOM element turi",
+    "option_c": "CSS preprocessor funksiyasi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — enum CSS’ga tegishli emas. Noto‘g‘ri: B — enum DOMga tegishli emas.",
+    "video_url": "https://t.me/web_interview_mastery/203"
+  },
+  {
+    "topic_id": 180,
+    "question": "Event Loop nimani boshqaradi?",
+    "option_a": "Call stack, task queue’lar va async callback’larni navbat bilan bajarishni",
+    "option_b": "CSS animatsiya keyframes’larini",
+    "option_c": "HTML doctype’ni",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — animatsiya alohida render pipeline. Noto‘g‘ri: C — doctype HTML deklaratsiyasi.",
+    "video_url": "https://t.me/web_interview_mastery/164"
+  },
+  {
+    "topic_id": 181,
+    "question": "`defer` atributi qo‘yilgan `<script>` qanday ishlaydi?",
+    "option_a": "HTML parsing tugagach va tartib bilan bajariladi",
+    "option_b": "Darhol yuklanadi va parsingni bloklaydi",
+    "option_c": "Yuklanishi ham, bajarilishi ham faqat `load`dan keyin bo‘ladi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `defer` odatda DOM tayyor bo‘lganda bajariladi, `load`ni kutmaydi. Noto‘g‘ri: B — bu `defer` emas, oddiy scriptga xos.",
+    "video_url": "https://t.me/web_interview_mastery/39"
+  },
+  {
+    "topic_id": 182,
+    "question": "Bitta elementni id bo‘yicha tanlash uchun qaysi metod to‘g‘ri?",
+    "option_a": "`document.getElementById('id')`",
+    "option_b": "`document.getElementsByClass('id')`",
+    "option_c": "`window.select('#id')`",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — to‘g‘ri nomi `getElementsByClassName`. Noto‘g‘ri: C — bunday standart API yo‘q.",
+    "video_url": "https://t.me/web_interview_mastery/179"
+  },
+  {
+    "topic_id": 183,
+    "question": "Thread-safe singleton yaratishning keng tarqalgan yo‘li qaysi?",
+    "option_a": "Lock/mutex yoki atomic init (double-checked locking) kabi sinxronizatsiya",
+    "option_b": "`console.log` qo‘shish",
+    "option_c": "`setTimeout` bilan kechiktirish",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — log thread safety bermaydi. Noto‘g‘ri: C — vaqt bilan kechiktirish race condition’ni hal qilmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/132"
+  },
+  {
+    "topic_id": 184,
+    "question": "`<picture>` va `<source>` odatda qaysi holatda ishlatiladi?",
+    "option_a": "Responsiv rasmlar va format/rezolyutsiya tanlash uchun",
+    "option_b": "Formani validatsiya qilish uchun",
+    "option_c": "Audio trekni loop qilish uchun",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — audio uchun `<audio>` ishlatiladi. Noto‘g‘ri: B — forma validatsiyasi `required`, JS yoki constraint validation API bilan.",
+    "video_url": "https://t.me/web_interview_mastery/45"
+  },
+  {
+    "topic_id": 185,
+    "question": "DOM bilan performance’ni yaxshilashning to‘g‘ri usuli qaysi?",
+    "option_a": "Reflow/repaintni kamaytirish va batch update qilish",
+    "option_b": "Har bir klikda `innerHTML`ni butun sahifaga yozish",
+    "option_c": "Har doim sinxron XHR ishlatish",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — katta `innerHTML` yangilash ko‘p reflow keltiradi. Noto‘g‘ri: C — sync XHR UI’ni bloklaydi.",
+    "video_url": "https://t.me/web_interview_mastery/182"
+  },
+  {
+    "topic_id": 186,
+    "question": "Execution context JavaScript’da nimani ifodalaydi?",
+    "option_a": "Kod bajarilish muhiti: scope, `this`, variable environment",
+    "option_b": "Faqat HTML parser holati",
+    "option_c": "CSS’ning render tree qismi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — execution context JS engine tushunchasi. Noto‘g‘ri: C — render tree CSS/DOMga tegishli, execution context emas.",
+    "video_url": "https://t.me/web_interview_mastery/75"
+  },
+  {
+    "topic_id": 187,
+    "question": "Callback funksiya nima?",
+    "option_a": "Boshqa funksiyaga argument sifatida beriladigan funksiya",
+    "option_b": "Har doim `setTimeout` ichidagi funksiya",
+    "option_c": "Faqat `return` qilinadigan string",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — callback funksiya bo‘lishi kerak. Noto‘g‘ri: B — callback faqat `setTimeout`ga cheklanmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/105"
+  },
+  {
+    "topic_id": 188,
+    "question": "`map` va `reduce` o‘rtasidagi to‘g‘ri farq qaysi?",
+    "option_a": "`map` har elementni transform qiladi, `reduce` bitta qiymatga yig‘adi",
+    "option_b": "`reduce` faqat stringlarda ishlaydi",
+    "option_c": "`map` massivni o‘zgartiradi (mutate) va yangi massiv qaytarmaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `map` yangi massiv qaytaradi. Noto‘g‘ri: B — `reduce` array metodidir, turga bog‘liq emas.",
+    "video_url": "https://t.me/web_interview_mastery/99"
+  },
+  {
+    "topic_id": 189,
+    "question": "String pool tushunchasi odatda nimaga xizmat qiladi?",
+    "option_a": "Bir xil string literal’larni qayta ishlatib xotirani tejashga",
+    "option_b": "Rasm keshini boshqarishga",
+    "option_c": "DOM node’larni indekslashga",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — string pool DOM indeks emas. Noto‘g‘ri: B — bu boshqa kesh mexanizmlari.",
+    "video_url": "https://t.me/web_interview_mastery/86"
+  },
+  {
+    "topic_id": 190,
+    "question": "`appendChild` va `append` farqi bo‘yicha qaysi gap to‘g‘ri?",
+    "option_a": "`append` bir nechta node/string qabul qiladi, `appendChild` faqat bitta node",
+    "option_b": "`appendChild` string qabul qiladi",
+    "option_c": "`append` DOM’ni o‘chiradi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `append` qo‘shadi, o‘chirmaydi. Noto‘g‘ri: B — `appendChild` node talab qiladi.",
+    "video_url": "https://t.me/web_interview_mastery/191"
+  },
+  {
+    "topic_id": 191,
+    "question": "Pure funksiya uchun qaysi shart to‘g‘ri?",
+    "option_a": "Bir xil inputga har doim bir xil output va side effect yo‘q",
+    "option_b": "Global o‘zgaruvchini o‘zgartirishi shart",
+    "option_c": "Har doim async bo‘lishi kerak",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — global state o‘zgarsa side effect bo‘ladi. Noto‘g‘ri: C — async bo‘lish pure bo‘lish sharti emas.",
+    "video_url": "https://t.me/web_interview_mastery/103"
+  },
+  {
+    "topic_id": 192,
+    "question": "TypeScript’da optional chaining (`?.`) ishlatilganda nima qaytishi mumkin?",
+    "option_a": "Property yo‘q bo‘lsa `undefined`",
+    "option_b": "Har doim exception",
+    "option_c": "Har doim `null`",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — optional chaining exception’ni kamaytiradi. Noto‘g‘ri: C — `undefined` qaytishi odatiy.",
+    "video_url": "https://t.me/web_interview_mastery/217"
+  },
+  {
+    "topic_id": 193,
+    "question": "Mapped type nimaga misol?",
+    "option_a": "`{ [K in keyof T]: T[K] }`",
+    "option_b": "`T | U`",
+    "option_c": "`Promise<T>`",
+    "correct_option": "B",
+    "explanation": "Noto‘g‘ri: A — bu union type. Noto‘g‘ri: C — bu generic wrapper type.",
+    "video_url": "https://t.me/web_interview_mastery/228"
+  },
+  {
+    "topic_id": 194,
+    "question": "`Promise.all` qanday ishlaydi?",
+    "option_a": "Barcha promise’lar resolve bo‘lsa natija beradi, bittasi reject bo‘lsa reject bo‘ladi",
+    "option_b": "Eng tez resolve bo‘lganini qaytaradi",
+    "option_c": "Hech qachon reject bo‘lmaydi",
+    "correct_option": "C",
+    "explanation": "Noto‘g‘ri: A — `Promise.all` reject bo‘lishi mumkin. Noto‘g‘ri: B — bu `Promise.race`ga yaqin.",
+    "video_url": "https://t.me/web_interview_mastery/197"
+  },
+  {
+    "topic_id": 195,
+    "question": "`Object.freeze(obj)` nima qiladi?",
+    "option_a": "Obyektni o‘zgartirishni cheklaydi (property qo‘shish/o‘chirish/qiymat o‘zgartirish)",
+    "option_b": "Obyektni JSONga aylantiradi",
+    "option_c": "Obyektni deep copy qiladi",
+    "correct_option": "A",
+    "explanation": "Noto‘g‘ri: B — JSONga aylantirish `JSON.stringify`. Noto‘g‘ri: C — freeze nusxa yaratmaydi.",
+    "video_url": "https://t.me/web_interview_mastery/115"
+  }
+]

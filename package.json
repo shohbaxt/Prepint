@@ -1,0 +1,25 @@
+{
+  "name": "questions",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "shohbaxt",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "build": "tsc",
+  "start": "node dist/bot.js"
+},
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "grammy": "^1.42.0",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/pg": "^8.20.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

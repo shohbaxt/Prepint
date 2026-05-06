@@ -1,6 +1,6 @@
 import { Bot, InlineKeyboard } from 'grammy';
 import dotenv from 'dotenv';
-import { pool } from "./db/index.ts";
+import { pool } from "./db/index";
 dotenv.config();
 
 const bot = new Bot(process.env.BOT_TOKEN!);
